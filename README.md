@@ -135,19 +135,21 @@ Possible extensions of this analysis include:
 ----
 
 ## 📂 Project Structure
-ecommerce-delivery-performance-analysis
+```
+ecommerce-logistics-delivery-performance-analysis
 │
-├── data
+├── dashboard
+│   └── e-commerce.pdf
 │
-├── notebooks
-│ └── delivery_performance_analysis.ipynb
+├── datasets
+│   └── dataset
 │
-├── images
+├── notebook
+│   └── E_Commerce_Order_&_Supply_Chain.ipynb
 │
-├── insights.md
-│
+├── Insights.md
 └── README.md
-
+```
 ---
 
 ## 🙋‍♂️ About Me
