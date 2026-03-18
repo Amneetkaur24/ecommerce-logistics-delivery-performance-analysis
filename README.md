@@ -1,5 +1,7 @@
 # 📦 E-commerce Delivery Performance & Logistics Delay Analysis
 
+<img width="795" height="460" alt="image" src="https://github.com/user-attachments/assets/62c94ae1-0b27-4699-92f7-9aacae4cd54b" />
+
 ## 📌 Project Overview
 
 Timely delivery is a critical factor in customer satisfaction for e-commerce businesses. Delays in delivery can lead to negative customer experiences, increased support costs, and potential revenue loss.
@@ -111,7 +113,6 @@ These insights help businesses reduce delivery delays and improve customer satis
 ## 📈 Power BI Dashboard
 
 👉 [Click to View the Dashboard (PDF)](https://drive.google.com/file/d/177BIJyH08bP58L9DeEASny952Pa255EU/view?usp=sharing)
-<img width="795" height="460" alt="image" src="https://github.com/user-attachments/assets/62c94ae1-0b27-4699-92f7-9aacae4cd54b" />
 
 ---
 
