@@ -121,6 +121,15 @@ These insights help businesses reduce delivery delays and improve customer satis
 For a detailed explanation and insights about this project, check out my blog post here:  
 [**How I Used Python & SQL to Improve Delivery Times on Shopify-Style Orders**](https://medium.com/@amneet1224/how-i-used-python-sql-to-improve-delivery-times-on-shopify-style-orders-69d03bb45eef)
 ---
+## 🚀 Future Improvements
+
+Possible extensions of this analysis include:
+
+- Building a delivery delay prediction model
+- Creating an operational performance dashboard in Power BI
+- Integrating logistics cost analysis
+- Developing carrier performance monitoring dashboards
+----
 ## 📂 Project Structure
 ecommerce-delivery-performance-analysis
 │
