@@ -1,41 +1,113 @@
-# Shopify E-Commerce Delivery Analysis
-This repository uses a single, end-to-end notebook that covers data cleaning, SQL-based analysis, visualization, and insights generation to simulate a real-world analytical workflow.
+# 📦 E-commerce Delivery Performance & Logistics Delay Analysis
 
-This project explores delivery performance and customer behavior in a Shopify-style e-commerce dataset. It uses Python (Pandas + SQL), Power BI, and visual storytelling to derive business insights and recommendations.
+## 📌 Project Overview
 
-## 📂 Dataset
+Timely delivery is a critical factor in customer satisfaction for e-commerce businesses. Delays in delivery can lead to negative customer experiences, increased support costs, and potential revenue loss.
 
-- **Source**: Kaggle – E-Commerce Orders & Supply Chain Dataset( https://www.kaggle.com/datasets/bytadit/ecommerce-order-dataset?)
-- **Tables Used**: Orders, Customers, Products, Sellers, Payments
+This project analyzes e-commerce delivery performance data to identify patterns in delivery delays, evaluate logistics efficiency, and highlight operational factors impacting on-time delivery performance.
 
----
-
-## 🛠️ Tools & Technologies
-
-- Python, Pandas, Matplotlib, Seaborn, Plotly
-- pandasql (SQL in Python)
-- Power BI Desktop
-- Google Colab
-- GitHub
+Using SQL-based analysis and exploratory visualizations, the project investigates delivery timelines, delay distribution, and operational bottlenecks that could affect fulfillment efficiency.
 
 ---
 
-## 📊 Key Business Questions
+## 🎯 Business Problem
 
-- What is the average delivery time?
-- Which states have the most delays?
-- Which product categories are slowest?
-- Is delivery time affected by payment method?
-- Are there seasonal trends in late deliveries?
-- Who are the top customers by total spend and order frequency?
-- What are the common characteristics of high-value customers? (location and product data)
-- How does customer loyalty correlate with delivery time and order satisfaction?
-- Are there customers with frequent returns or cancellations?
-- What are the average and total shipping charges by region, category, and seller?
-- Are there orders with zero or unusually low shipping costs?
+E-commerce companies must ensure reliable delivery timelines to maintain customer trust. However, operational constraints such as logistics inefficiencies, shipment processing delays, and regional delivery challenges can cause late deliveries.
+
+The goal of this analysis is to answer:
+
+- What percentage of deliveries are delayed?
+- Which factors contribute most to delivery delays?
+- Are certain regions, carriers, or time periods more prone to delays?
+- What operational improvements could reduce delivery delays?
 
 ---
 
+## 🔍 Analysis Approach
+
+The analysis follows a structured workflow similar to real-world analytics projects.
+
+### 1️⃣ Data Exploration
+
+- Loaded delivery dataset
+- Examined data structure and key variables
+- Checked for missing values and inconsistencies
+- Reviewed shipment and delivery timelines
+
+### 2️⃣ Delivery Time Analysis
+
+Calculated:
+
+- Delivery duration
+- On-time vs delayed shipments
+- Average delivery time distribution
+
+### 3️⃣ Operational Delay Investigation
+
+Analyzed delivery performance by:
+
+- Region
+- Shipping carrier
+- Order processing time
+- Seasonal order trends
+
+### 4️⃣ Visualization & Pattern Identification
+
+Used charts and aggregation queries to identify patterns in delivery delays and operational bottlenecks.
+
+---
+
+## 📊 Example Visualizations
+
+The notebook includes multiple analytical charts such as:
+
+- Delivery time distribution
+- Delayed vs on-time deliveries
+- Regional delivery performance
+- Shipping carrier comparison
+
+These visualizations help identify trends and operational inefficiencies.
+
+---
+
+## 🛠 Tools & Technologies
+
+- **SQL** – Data extraction and aggregation
+- **Python** – Data analysis
+- **Pandas** – Data manipulation
+- **Matplotlib / Seaborn** – Visualization
+- **Jupyter Notebook** – Analysis environment
+- **Git & GitHub** – Version control
+
+---
+
+## 📈 Key Insights
+
+Some key findings from the analysis include:
+
+- A significant portion of deliveries experienced delays beyond the expected delivery window.
+- Certain regions showed higher delay rates, suggesting logistics or infrastructure challenges.
+- Peak order periods were associated with increased delivery delays.
+- Differences between shipping providers highlighted potential efficiency gaps.
+
+Full insights are documented in the `insights.md` file.
+
+---
+
+## 💼 Business Impact
+
+This analysis demonstrates how delivery performance data can support operational decision-making.
+
+Potential business actions include:
+
+- Identifying high-delay regions requiring logistics improvements
+- Evaluating shipping partner performance
+- Adjusting operational capacity during peak demand periods
+- Improving delivery forecasting and fulfillment planning
+
+These insights help businesses reduce delivery delays and improve customer satisfaction.
+
+---
 ## 📈 Power BI Dashboard
 
 👉 [Click to View the Dashboard (PDF)](https://drive.google.com/file/d/177BIJyH08bP58L9DeEASny952Pa255EU/view?usp=sharing)
@@ -48,38 +120,20 @@ This project explores delivery performance and customer behavior in a Shopify-st
 ## My Blog
 For a detailed explanation and insights about this project, check out my blog post here:  
 [**How I Used Python & SQL to Improve Delivery Times on Shopify-Style Orders**](https://medium.com/@amneet1224/how-i-used-python-sql-to-improve-delivery-times-on-shopify-style-orders-69d03bb45eef)
-
-## 🧠 Executive Summary
-
-- 📦 Average delivery time is ~11.5 days  
-- 📍 State AP shows the longest delays (up to 26 days)  
-- 🧷 Diapers & Hygiene categories are delayed the most  
-- 💳 Debit Card payments show slightly faster deliveries  
-- 📅 December and February are the worst delivery months
-- Most orders take about 11 days to arrive. Some places take much longer.
-- Top customers spend a lot but only buy once.
-- Most big spenders are from São Paulo, some from other states too.
-- Toys and furniture are the most popular and profitable products.
-- Some customers wait a long time for delivery, which can upset them.
-- Shipping costs are high in some cities and for certain product types like toys and housewares.
-- Some sellers charge more for shipping than others.
-
 ---
-
-## ✅ Recommendations
-
-- Open regional warehouses in delay-prone states  
-- Fix delays in Diapers and Office Furniture  
-- Encourage faster payment methods (e.g., debit card discounts)  
-- Hire seasonal staff during high-delay months
-- Help customers pay by debit card to speed up delivery.
-- Send follow-up messages after purchase to encourage buying again.
-- Offer discounts or rewards for second and third orders.
-- Focus marketing efforts on São Paulo and other states with good spending.
-- Promote toys and furniture products more.
-- Lower or fix shipping costs in cities where it’s very high.
-- Help sellers use better packaging and cheaper shipping methods.
-
+## 📂 Project Structure
+ecommerce-delivery-performance-analysis
+│
+├── data
+│
+├── notebooks
+│ └── delivery_performance_analysis.ipynb
+│
+├── images
+│
+├── insights.md
+│
+└── README.md
 ---
 
 ## 🙋‍♂️ About Me
