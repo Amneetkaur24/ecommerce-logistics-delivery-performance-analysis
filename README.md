@@ -111,6 +111,7 @@ These insights help businesses reduce delivery delays and improve customer satis
 ## 📈 Power BI Dashboard
 
 👉 [Click to View the Dashboard (PDF)](https://drive.google.com/file/d/177BIJyH08bP58L9DeEASny952Pa255EU/view?usp=sharing)
+<img width="795" height="460" alt="image" src="https://github.com/user-attachments/assets/62c94ae1-0b27-4699-92f7-9aacae4cd54b" />
 
 ---
 
